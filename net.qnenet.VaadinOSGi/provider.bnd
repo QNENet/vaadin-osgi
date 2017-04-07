@@ -1,0 +1,14 @@
+#
+# 	BUNDLE 
+#
+
+Bundle-Description: \
+	The provider bundle for net.qnenet.VaadinOSGi.
+	
+Export-Package:  \
+	net.qnenet.vaadinosgi.api
+
+Private-Package:  \
+	net.qnenet.vaadinosgi.provider
+
+-includeresource: {readme.md}
